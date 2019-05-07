@@ -1,0 +1,259 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(204, 153, 106);
+  
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.content {
+  width: 520px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentAboutMe {
+  width: 520px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  height: -100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-direction: row;
+
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  border: 5px;
+  border-color: rgb(77, 70, 47);
+  background-color: rgb(255, 130, 93);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.backToButton {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  border: 5px;
+  border-color: rgb(77, 70, 47);
+  background-color: rgb(255, 130, 93);
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.btn:hover {
+  background-color: rgb(223, 132, 132);
+  color: beige;
+  transition-duration: 0.4s;
+}
+
+.backToButton:hover {
+  background-color: rgb(223, 132, 132);
+  color: beige;
+  transition-duration: 0.4s;
+}
+
+ul{ 
+  list-style-type: none; 
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contactTitle, .myContacts {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.myContacts {
+  line-height: 28px;
+  width: 700px;
+  text-align: left;
+}
+
+.heading, .heading2 {
+  text-align: center;
+}
+
+.heading2 {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.square {
+  width: 580px;
+  height: 200px;
+  background-color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.squareImage {
+  width: 580px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.demoDescription, .techUsed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 580px;
+  line-height: 28px;
+}
+
+.demoDescription {
+  margin-bottom: 60px;
+}
+
+.meDescription {
+  line-height: 35px;
+}
+
+.profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.icon {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.activityIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: 300px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+  .contentAboutMe {
+    width: 300px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .activityIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+  .activity {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+  .introduction {
+    font-size: 20px;
+    display: inline;
+    text-align: left;
+  }
+  .demoDescription, .techUsed {
+    width: 400px;
+  }
+  .square {
+    width: 560px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .squareImage {
+    width: 560px;
+    height:200px;
+    margin-bottom:10px;
+  }
+  .Projects {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contactDescription {
+    width: 400px;
+    font-size: 20px;
+  }
+  .myContacts {
+    font-size: 11px;
+  } 
+  .icon {
+    margin-top:11px;
+  }
+}
+
